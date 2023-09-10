@@ -1,0 +1,22 @@
+.nav {
+  background-color: #FFF;
+  border-bottom: 2px solid rgba(57, 56, 56, 0.6);
+}
+
+.activeStyle {
+  color: #FFF;
+  background-color: rgba(57, 56, 56, 0.6);
+  border: 2px solid rgba(57, 56, 56, 0.6);
+}
+
+.activeStyle:hover {
+  color: #313131;
+}
+
+.activeStyle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(49,49,49,.5);
+}
+
+.nonActiveStyle {
+  border: none;
+}

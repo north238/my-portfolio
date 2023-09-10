@@ -46,7 +46,6 @@ export const metadata: Metadata = {
       color: '#5bbad5',
     },
   ],
-  manifest: '/favicon/site.webmanifest',
 };
 
 export default function RootLayout({
