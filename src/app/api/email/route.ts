@@ -9,10 +9,10 @@ export async function POST(request: Request) {
   
   try {
     const data = await resend.emails.send({
-      from: '高杉 竜平 <info@garden-sugizo.website>',
+      from: '北山 文哉 <info@fumiyaportfolio.net>',
       to: email,
       bcc: process.env.YOUR_EMAIL,
-      subject: '【庭屋すぎ蔵】お問い合わせ内容の確認',
+      subject: 'お問い合わせ内容の確認',
       react: Email({ email, name, message, tel }),
     });
 
