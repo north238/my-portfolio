@@ -1,8 +1,8 @@
 import React from 'react';
-import Image from 'next/image';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
+import Paper from '@mui/material/Paper';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from '../styles/theme';
 
@@ -10,6 +10,7 @@ const Complete = () => {
   return (
     <>
       <Container maxWidth="xs" sx={{ mt: 5 }}>
+      <Paper elevation={3} sx={{ p: 4 }}>
         <ThemeProvider theme={theme}>
           <Typography
             variant="h5"
@@ -23,25 +24,13 @@ const Complete = () => {
               <br />
               内容を確認後返信させていただきます。
               <br />
-              遅くとも2営業日以内にはご連絡いたします。
-              <br />
               しばらくお待ちください。
             </Typography>
             </Box>
             <Box sx={{ mt: 2 }}>
-            <Image
-              src={'/image/complete_img_by_mathyas-kurmann.jpg'}
-              alt={'お問い合わせ確認画像'}
-              width={1980}
-              height={1150}
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              style={{
-                width: '100%',
-                height: 'auto',
-              }}
-            />
           </Box>
         </ThemeProvider>
+        </Paper>
       </Container>
     </>
   );

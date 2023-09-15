@@ -46,8 +46,10 @@ const Work: React.FC = () => {
               <br />
             </Typography>
             <Typography variant="body1" gutterBottom>
-              上記を使用して作られています。JavaScriptを学んできたのでNext.jsは扱いやすく感じています。Muiに関しても扱えるcomponentが多く、開発時間がかなり短縮される印象。このホームページでの一番苦戦したところはResendとReact
-              Emailを設定するところです。新しい技術で参考資料がなく手間取りました。装飾されたメールが送信できるようになり感動しました。おすすめのライブラリです。
+              上記を使用して作られています。JavaScriptを学んできたのでNext.jsは扱いやすく感じています。Muiに関しても扱えるcomponentが多く、開発時間がかなり短縮される印象。
+              <br />
+              このホームページでの一番苦戦したところはResendとReact
+              Emailを設定するところです。新しい技術で参考資料がなく手間取りました。装飾されたメールが送信できるようになったときは感動しました。おすすめのライブラリです。
             </Typography>
           </Box>
           <Box sx={{ mt: 2 }}>

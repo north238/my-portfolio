@@ -41,12 +41,14 @@ const Work: React.FC = () => {
                   'https://www.udemy.com/share/103eLk3@vxs-OndKkdkrgD19NSsSNUOx9h0HESe4uNS3hP8maKuwsJzz0p3aChkf4rx4sUaydg==/'
                 }
               >
-                Udemy
+                Udemyリンク
               </Link>
             </Typography>
             <Typography variant="body1" gutterBottom>
               こちらはUdemy教材でTypeScriptを学ぶために作成したアプリケーションです。TypeScriptは事前にエラーを示してくれる技術。
-              どこが間違っているのか？がわかりやすくなり開発がよりスムーズになります。こちらの教材ではオブジェクト指向での記述を学ぶのですが、理解できずに苦労しました。
+              どこが間違っているのか？がわかりやすくなり開発がよりスムーズになります。
+              <br />
+              こちらの教材ではオブジェクト指向での記述を学ぶのですが、理解できずに苦労しました。
               簡単にまとめるのならば『クラスを使って抽象化すること』です。改めて気が付いたことですがこれはNext.jsのcomponentの考えに似ています。
               コードの可読性をあげることもエンジニアにとって重要だと学びました。
             </Typography>

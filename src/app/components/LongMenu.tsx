@@ -52,7 +52,7 @@ export default function LongMenu() {
               <HomeOutlinedIcon />
             </ListItemIcon>
             <ListItemText>
-              <Link className={styles.link} href={'/home'}>Home</Link>
+              <Link className={styles.link} href={'/'}>Home</Link>
             </ListItemText>
           </MenuItem>
           <Divider />

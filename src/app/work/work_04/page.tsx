@@ -49,7 +49,7 @@ const work_03: React.FC = () => {
                 https://expressjs.com
               </Link>
               <br />
-              【ライブラリ】Mongoose, Mui, axios...
+              【ライブラリ】Mongoose, mui, axios...
             </Typography>
             <Typography variant="body1" gutterBottom>
               こちらのWebアプリケーションはReactを学びながら作成したものになります。初めて触れる技術でしたが多くの参考資料があり、迷子になることはありませんでした。
