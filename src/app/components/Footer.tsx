@@ -7,6 +7,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from '../styles/theme';
 import Button from '@mui/material/Button';
+import { relative } from 'path';
 
 const Footer = () => {
   return (
@@ -14,7 +15,6 @@ const Footer = () => {
       <Box
         sx={{
           display: 'flex',
-          position: 'sticky',
           flexDirection: 'column',
           textAlign: 'center',
           backgroundColor: '#EBEDED',
