@@ -19,8 +19,8 @@ const roboto_mono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'My Portfolio',
-  description: 'ようこそ。ポートフォリオサイトへ',
+  title: 'Fumiya Portfolio',
+  description: 'ようこそ。fumiya-portfolioへ。自作した作品の数々をご覧ください',
   icons: [
     { rel: 'icon', url: Favicon.src },
     {
