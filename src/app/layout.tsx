@@ -1,3 +1,4 @@
+import * as React from 'react';
 import './styles/globals.css';
 import Favicon from '/public/favicon/favicon.ico';
 import type { Metadata } from 'next';
@@ -58,7 +59,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         <CssBaseline />
-        {children}
+        <main>{children}</main>
         <Footer />
       </body>
     </html>

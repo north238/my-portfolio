@@ -10,7 +10,7 @@ import Toolbar from '@mui/material/Toolbar';
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Box sx={{ position: 'relative' }}>
         <Box sx={{ position: 'relative', width: '100%', height: '100vh' }}>
           <Image
@@ -68,6 +68,6 @@ export default function Home() {
       <Box sx={{ mt: 2 }}>
         <ImageSlider />
       </Box>
-    </div>
+    </>
   );
 }
