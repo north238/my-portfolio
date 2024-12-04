@@ -33,18 +33,43 @@ const Work: React.FC = () => {
               【使用言語】JavaScript
               <br />
               【フレームワーク】Next.js URL:
-              <Link href={'https://nextjs.org'}>https://nextjs.org</Link>
+              <Link
+                href="https://nextjs.org"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://nextjs.org
+              </Link>
               <br />
               【ライブラリ】MaterialUI URL:
-              <Link href={'https://mui.com'}>https://mui.com</Link>
+              <Link
+                href="https://mui.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://mui.com
+              </Link>
               <br />
               【ライブラリ】Resend URL:
-              <Link href={'https://resend.com'}>https://resend.com</Link>
+              <Link
+                href="https://resend.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://resend.com
+              </Link>
               <br />
               【ライブラリ】React Email URL:
-              <Link href={'https://react.email'}>https://react.email</Link>
+              <Link
+                href="https://react.email"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://react.email
+              </Link>
               <br />
             </Typography>
+
             <Typography variant="body1" gutterBottom>
               上記を使用して作られています。JavaScriptを学んできたのでNext.jsは扱いやすく感じています。Muiに関しても扱えるcomponentが多く、開発時間がかなり短縮される印象。
               <br />

@@ -35,12 +35,20 @@ const work_03: React.FC = () => {
               【プラットフォーム】Node.js
               <br />
               【データベース】MongoDB URL:
-              <Link href={'https://www.mongodb.com/ja-jp'}>
+              <Link
+                href="https://www.mongodb.com/ja-jp"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 https://www.mongodb.com
               </Link>
               <br />
               【フレームワーク】Express URL:
-              <Link href={'https://expressjs.com/ja/'}>
+              <Link
+                href="https://expressjs.com/ja/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 https://expressjs.com
               </Link>
               <br />
@@ -50,9 +58,9 @@ const work_03: React.FC = () => {
               <br />
               URL:
               <Link
-                href={
-                  'https://www.udemy.com/share/105zPc3@pV8ffKlPgfzt9vwICBjdJLXiqtTSHdpfsegL0PpB4JigWeq9MOxrFYdyCXMwcRDt1Q==/'
-                }
+                href="https://www.udemy.com/share/105zPc3@pV8ffKlPgfzt9vwICBjdJLXiqtTSHdpfsegL0PpB4JigWeq9MOxrFYdyCXMwcRDt1Q==/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Udemyリンク
               </Link>

@@ -4,9 +4,6 @@ import Box from '@mui/material/Box';
 import CustomizedButtons from './components/Button';
 import Image from 'next/image';
 import styles from './styles/page.module.css';
-import { ThemeProvider } from '@mui/material/styles';
-import { theme } from './styles/theme';
-import { LogoIcon } from './components/Icon';
 import ImageSlider from './components/ImageSlider';
 import Container from '@mui/material/Container';
 import Toolbar from '@mui/material/Toolbar';
@@ -31,16 +28,16 @@ export default function Home() {
           className={styles.mainText}
           sx={{ display: 'flex', flexDirection: 'column', textAlign: 'center' }}
         >
-            <Typography
-              variant="h2"
-              sx={{ fontSize: { xs: '3rem', md: '4rem' } }}
-            >
-              PORTFOLIO
-            </Typography>
-            <Typography variant="subtitle1">by Fumiya Kitayama</Typography>
-            <Typography variant="body1" sx={{ mt: 1 }}>
-              このサイトをご覧いただきありがとうございます。自作したWebアプリケーションの数々をぜひ見ていってください。
-            </Typography>
+          <Typography
+            variant="h2"
+            sx={{ fontSize: { xs: '3rem', md: '4rem' } }}
+          >
+            PORTFOLIO
+          </Typography>
+          <Typography variant="subtitle1">by Fumiya Kitayama</Typography>
+          <Typography variant="body1" sx={{ mt: 1 }}>
+            このサイトをご覧いただきありがとうございます。自作したWebアプリケーションの数々をぜひ見ていってください。
+          </Typography>
           <Box sx={{ mx: 'auto', mt: 5, maxWidth: '200px' }}>
             <CustomizedButtons
               text="More View"

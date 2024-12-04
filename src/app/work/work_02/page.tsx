@@ -31,15 +31,19 @@ const Work: React.FC = () => {
           <Box sx={{ mt: 2 }}>
             <Typography variant="body1" gutterBottom>
               【使用言語】TypeScript URL:
-              <Link href={'https://www.typescriptlang.org'}>
+              <Link
+                href="https://www.typescriptlang.org"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 https://www.typescriptlang.org
               </Link>
               <br />
               【使用教材】Understanding TypeScript日本語版 URL:
               <Link
-                href={
-                  'https://www.udemy.com/share/103eLk3@vxs-OndKkdkrgD19NSsSNUOx9h0HESe4uNS3hP8maKuwsJzz0p3aChkf4rx4sUaydg==/'
-                }
+                href="https://www.udemy.com/share/103eLk3@vxs-OndKkdkrgD19NSsSNUOx9h0HESe4uNS3hP8maKuwsJzz0p3aChkf4rx4sUaydg==/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Udemyリンク
               </Link>

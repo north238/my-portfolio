@@ -35,17 +35,29 @@ const work_03: React.FC = () => {
               【プラットフォーム】Node.js
               <br />
               【ライブラリ】React URL:
-              <Link href={'https://ja.legacy.reactjs.org'}>
+              <Link
+                href="https://ja.legacy.reactjs.org"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 https://ja.legacy.reactjs.org
               </Link>
               <br />
               【データベース】MongoDB URL:
-              <Link href={'https://www.mongodb.com/ja-jp'}>
+              <Link
+                href="https://www.mongodb.com/ja-jp"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 https://www.mongodb.com
               </Link>
               <br />
               【フレームワーク】Express URL:
-              <Link href={'https://expressjs.com/ja'}>
+              <Link
+                href="https://expressjs.com/ja"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 https://expressjs.com
               </Link>
               <br />
