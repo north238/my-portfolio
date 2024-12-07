@@ -30,7 +30,7 @@ const Complete = () => {
               variant="h5"
               sx={{ mt: 5, borderBottom: '1px solid #3a302d' }}
             >
-              内容確認
+              送信完了
             </Typography>
             <Box sx={{ mt: 5 }}>
               <Typography variant="body1">

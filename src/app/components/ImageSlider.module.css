@@ -29,3 +29,9 @@
   width: calc(100vw / 3);
   margin: 5px;
 }
+
+@media (min-width: 1200px) {
+  .item {
+    width: calc(100vw / 4);
+  }
+}

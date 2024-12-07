@@ -25,7 +25,7 @@ const WorkCard: React.FC<WorkCardProps> = (props) => {
         flexDirection: 'column',
         justifyContent: 'space-between',
         maxWidth: { xs: 350, md: 500 },
-        minHeight: { xs: 305, md: 515, lg: 660 },
+        minHeight: { xs: 305, md: 515, lg: 550 },
       }}
     >
       <CardActionArea href={`${props.url}`}>
@@ -33,8 +33,9 @@ const WorkCard: React.FC<WorkCardProps> = (props) => {
           component="img"
           image={`/image/${props.img}.png`}
           alt={`${props.alt}`}
+          sx={{ pb: 1 }}
         />
-        <CardContent>
+        <CardContent sx={{ p: '0 16px' }}>
           <Typography
             gutterBottom
             variant="h5"

@@ -9,7 +9,7 @@ import CustomizedButtons from '../components/Button';
 
 const work: React.FC = () => {
   return (
-    <div>
+    <>
       <Container>
         <Box sx={{ mt: 2 }}>
           <Typography variant="h4" sx={{ borderBottom: '1px solid' }}>
@@ -181,7 +181,7 @@ const work: React.FC = () => {
           </Paper>
         </Box>
       </Container>
-    </div>
+    </>
   );
 };
 

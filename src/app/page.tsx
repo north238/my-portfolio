@@ -6,7 +6,6 @@ import Image from 'next/image';
 import styles from './styles/page.module.css';
 import ImageSlider from './components/ImageSlider';
 import Container from '@mui/material/Container';
-import Toolbar from '@mui/material/Toolbar';
 
 export default function Home() {
   return (
@@ -17,15 +16,19 @@ export default function Home() {
             sx={{
               position: 'relative',
               maxWidth: '100%',
+              height: '100vh',
+              aspectRatio: '16 / 9',
               overflow: 'hidden',
             }}
           >
             <Image
               src={'/image/main.jpg'}
               alt={'ホーム画像'}
-              width={1920}
-              height={1080}
+              fill
               priority
+              style={{
+                objectFit: 'cover',
+              }}
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           </Box>
@@ -56,9 +59,8 @@ export default function Home() {
             </Box>
           </Box>
         </Box>
-        <Container>
-          <Toolbar id="work" />
-          <Box sx={{ mt: 5 }}>
+        <Container id="work">
+          <Box sx={{ my: 5 }}>
             <Typography variant="h4" sx={{ borderBottom: '1px solid' }}>
               Work
             </Typography>
