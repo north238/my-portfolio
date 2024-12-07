@@ -7,7 +7,7 @@ import WorkCard from './WorkCard';
 
 const ImageSlider = () => {
   return (
-    <div>
+    <>
       <Box className={styles.wrap}>
         <ul className={`${styles.list} ${styles.listLeft}`}>
           <li className={styles.item}>
@@ -80,7 +80,7 @@ const ImageSlider = () => {
               text={'資産管理 Webアプリケーション'}
               caption={'<使用言語など> JavaScript, MongoDB, Express'}
               url={'/work/work_03'}
-              />
+            />
           </li>
           <li className={styles.item}>
             <WorkCard
@@ -94,7 +94,7 @@ const ImageSlider = () => {
           </li>
         </ul>
       </Box>
-    </div>
+    </>
   );
 };
 

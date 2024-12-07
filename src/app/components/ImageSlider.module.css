@@ -17,8 +17,8 @@
   list-style: none;
 }
 
-.listLeft{
-animation: infinity-scroll-left 95s infinite linear 0.5s both;
+.listLeft {
+  animation: infinity-scroll-left 95s infinite linear 0.5s both;
 }
 
 .wrap:hover .listLeft {
@@ -28,4 +28,10 @@ animation: infinity-scroll-left 95s infinite linear 0.5s both;
 .item {
   width: calc(100vw / 3);
   margin: 5px;
+}
+
+@media (min-width: 1200px) {
+  .item {
+    width: calc(100vw / 4);
+  }
 }

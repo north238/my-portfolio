@@ -71,7 +71,7 @@ const Contact: React.FC = () => {
 
   return (
     <>
-      <Container maxWidth="xs" sx={{ mt: 5 }}>
+      <Container maxWidth="xs">
         <Paper elevation={3} sx={{ p: 4 }}>
           <ThemeProvider theme={theme}>
             <Typography
@@ -160,6 +160,7 @@ const Contact: React.FC = () => {
                     margin="dense"
                     error={errors.message ? true : false}
                     helperText={errors.message?.message as string}
+                    sx={{ minHeight: '120px', resize: 'none' }}
                   />
                 )}
               />

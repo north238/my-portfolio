@@ -6,4 +6,4 @@ export const notojp = Noto_Sans_JP({
   display: 'swap',
 });
 
-export const inter = Inter({ subsets: ['latin'] })
+export const inter = Inter({ subsets: ['latin'] });

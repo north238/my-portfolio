@@ -4,6 +4,7 @@ import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 
@@ -19,15 +20,22 @@ interface WorkCardProps {
 const WorkCard: React.FC<WorkCardProps> = (props) => {
   return (
     <Card
-      sx={{ maxWidth: { xs: 350, md: 500 }, minHeight: { xs: 250, md: 515 } }}
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'space-between',
+        maxWidth: { xs: 350, md: 500 },
+        minHeight: { xs: 305, md: 515, lg: 550 },
+      }}
     >
       <CardActionArea href={`${props.url}`}>
         <CardMedia
           component="img"
           image={`/image/${props.img}.png`}
           alt={`${props.alt}`}
+          sx={{ pb: 1 }}
         />
-        <CardContent>
+        <CardContent sx={{ p: '0 16px' }}>
           <Typography
             gutterBottom
             variant="h5"
@@ -59,6 +67,7 @@ const WorkCard: React.FC<WorkCardProps> = (props) => {
           sx={{ textTransform: 'none', fontSize: { xs: 7, md: 14 } }}
         >
           More View
+          <ChevronRightIcon sx={{ fontSize: { xs: 7, md: 16 } }} />
         </Button>
       </CardActions>
     </Card>

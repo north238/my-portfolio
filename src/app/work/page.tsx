@@ -9,7 +9,7 @@ import CustomizedButtons from '../components/Button';
 
 const work: React.FC = () => {
   return (
-    <div>
+    <>
       <Container>
         <Box sx={{ mt: 2 }}>
           <Typography variant="h4" sx={{ borderBottom: '1px solid' }}>
@@ -31,7 +31,11 @@ const work: React.FC = () => {
               </Typography>
               <Typography variant="body2" gutterBottom>
                 URL:
-                <Link href={'https://www.garden-sugizo.website'}>
+                <Link
+                  href="https://www.garden-sugizo.website"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   https://www.garden-sugizo.website
                 </Link>
               </Typography>
@@ -73,7 +77,11 @@ const work: React.FC = () => {
               </Typography>
               <Typography variant="body2" gutterBottom>
                 URL:
-                <Link href={'https://north238.github.io/todoList'}>
+                <Link
+                  href="https://north238.github.io/todoList"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   https://north238.github.io/todoList
                 </Link>
               </Typography>
@@ -112,12 +120,6 @@ const work: React.FC = () => {
             <Box sx={{ mx: 2 }}>
               <Typography variant="body1" gutterBottom>
                 世の中には資産管理アプリはたくさんあります。ですが一定の期間から有料になるものがほとんどです。永遠に管理したいと思い作成しました。
-              </Typography>
-              <Typography variant="body2" gutterBottom>
-                URL:
-                <Link href={'https://my-assets.onrender.com'}>
-                  https://my-assets.onrender.com
-                </Link>
               </Typography>
             </Box>
             <Box sx={{ m: 2 }}>
@@ -179,7 +181,7 @@ const work: React.FC = () => {
           </Paper>
         </Box>
       </Container>
-    </div>
+    </>
   );
 };
 
