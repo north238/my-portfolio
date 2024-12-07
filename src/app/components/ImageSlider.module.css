@@ -17,8 +17,8 @@
   list-style: none;
 }
 
-.listLeft{
-animation: infinity-scroll-left 95s infinite linear 0.5s both;
+.listLeft {
+  animation: infinity-scroll-left 95s infinite linear 0.5s both;
 }
 
 .wrap:hover .listLeft {

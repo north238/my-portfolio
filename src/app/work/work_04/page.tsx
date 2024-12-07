@@ -11,7 +11,7 @@ import Paper from '@mui/material/Paper';
 const work_03: React.FC = () => {
   return (
     <>
-      <Container fixed sx={{ mt: 5 }}>
+      <Container fixed sx={{ my: 5 }}>
         <Paper elevation={3} sx={{ p: 4 }}>
           <Button
             color="inherit"
